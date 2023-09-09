@@ -1,0 +1,165 @@
+/* fuente */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family:'Montserrat', sans-serif;
+    overflow-x:hidden;
+}
+
+#menu{
+    background-color:#154cc4 !important;
+} 
+
+#menu a{
+    color: #7da3cd;
+}
+
+.logo{
+    width: 200px;
+}
+
+.slideimg{
+    height: 560px;
+}
+
+/* noticias o novedades */
+#noticias{
+    background-color: #5e88d1
+}
+
+.map{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #464dd5;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+#noticias .titulo{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.card{
+    background-color: #92b9e5;
+    height: 700px;
+}
+.card img{
+    height: 450px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.buy{
+    margin-left: 30%;
+    
+}
+.text{
+    height: 70%;
+}
+
+/* servicios */
+
+.w-100{
+    background-color: #3c79ba;
+    
+}
+.w-100 h5{
+    text-align: center;
+    font-size: 3em;
+}
+
+.services{
+    width: 180px;
+    height: 160px;
+}
+
+/* footer */
+
+#page-footer{
+    display: flex;
+    background-color: #1375d7;
+}
+#page-footer .ftcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    
+    padding: 70px 0;
+}
+
+.footer__cta-ftcontainer{
+    max-width: 1200px;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.ftrow{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#page-footer h2{
+    color: #fff;
+
+}
+
+#page-footer p{
+    color: #fff;
+}
+
+#page-footer h4{
+    color: #fff;
+
+}
+
+/*Nosotros*/
+#nosotros{
+    background-color: #92b9e5;
+    justify-content: center;
+    display: block;
+
+}
+#nosotros p{
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.5em;
+    
+}
+
+#nosotros h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 3em;
+    
+    
+}
+
+/*ACTIVIDADES*/
+
+.imag{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer__logo{
+    width: 200px;
+}
